@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(153, 217, 234);
+
+}
+
+.container a {
+    text-decoration: none;
+    /* margin: 20px;
+    margin-top: 10px; */
+    padding-right: 30px;
+    padding-bottom: 0px;
+    line-height: 99px;
+    font-size: larger;
+}
+
+.container {
+    text-decoration: none;
+
+    text-align: right;
+
+    height: 100px;
+
+}
+
+.container .logoredondo {
+    width: 91px;
+    height: 90px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    /* justify-content: flex-start; */
+
+}
+
+.jumbotron {
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    /* flex-wrap: wrap; */
+}
+
+#intro {
+    /* text-align: center; */
+    text-align: justify;
+    padding: 4rem;
+    width: 40%;
+
+
+}
+
+#intro h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-style: initial;
+    font-size: xx-large;
+}
+
+#correo {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#correo input {
+    /* padding-top: 2rem; */
+    /* box-sizing: border-box; */
+    width: 70%;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 8px;
+
+
+}
+
+/* #buttom {
+    padding-top: 2rem;
+} */
+#enviar {
+    border-radius: 8px;
+    width: 100px;
+    height: 33px;
+    background-color: rgb(153, 217, 234);
+    border: 1px solid;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+#logo {
+    width: 90%;
+
+    padding-left: 10px;
+    /* justify-content: right; */
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    background-color: rgb(201, 171, 228);
+    padding-bottom: 40px;
+}
+
+h2 {
+    background-color: rgb(201, 171, 228);
+    text-align: center;
+    padding: 25px;
+    color: red;
+    font-size: xx-large;
+}
+h4 {
+    padding-top: 0.5rem;
+}
+#padding {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+#est-temprana {
+    grid-column-start: 2;
+    width: 200px;
+     border-style:inset;
+     border-radius: 20px;
+     border-color: red;
+     text-align: center;
+}
+
+#escolar {
+    grid-column-start: 4;
+    width: 200px;
+    border-style:inset;
+    border-radius: 20px;
+    border-color: red;
+    text-align: center;
+}
+
+#after-school {
+    grid-column-start: 6;
+    width: 200px;
+    border-style:inset;
+    border-radius: 20px;
+    border-color: red;
+    text-align: center;
+}
+
+#familia {
+    grid-column-start: 8;
+    width: 200px;
+    border-style:inset;
+    border-radius: 20px;
+    border-color: red;
+    text-align: center;
+}
+
+#infantiles {
+    grid-column-start: 10;
+    width: 200px;
+    border-style:inset;
+    border-radius: 20px;
+    border-color: red;
+    text-align: center;
+    
+}
+#width200 {
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+ 
+}
+
+
+h4 {
+    padding-bottom: 33px;
+    /* color: white; */
+    font-size: large;
+}
+
+.footer i {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(41, 45, 53);
+}
+
+ul {
+    list-style: none;
+}
+
+h5 {
+    color: rgba(156, 163, 175);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#redes {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 227, 227);
+    width: 33%;
+}
+
+#nosotros {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 227, 227);
+    width: 33%;
+}
+
+#legal {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(231, 227, 227);
+    width: 33%;
+}
+
+@media screen and (max-width: 650px){
+    .container {
+        width: 100%;
+        display: block;
+        
+        /* background-color: aqua; */
+    }
+    .container a {
+        display: block;
+        text-align:inherit;
+        background-color: rgb(153, 217, 234);
+    }
+    .jumbotron {
+        display: block;
+        margin-top: 18rem;
+        
+
+    }
+    #intro{
+        
+        /* background-color: rgb(153, 217, 234); */
+        width: auto;
+        
+    }
+    .catalogo {
+        display: inline-block;
+        
+        
+        
+    }
+    #est-temprana {
+        width: 75%;
+        margin-bottom: 10px;
+         margin-left: 12%;
+        
+        
+        
+    }
+    #escolar {
+        width: 75%;
+        margin-bottom: 10px;
+         margin-left: 12%;
+       
+   
+        
+    }
+    #after-school {
+        width: 75%;
+        margin-bottom: 10px;
+         margin-left: 12%;
+        
+    }
+    #familia {
+        width: 75%;
+        margin-bottom: 10px;
+         margin-left: 12%;
+        
+    }
+    #infantiles {
+        width: 75%;
+        margin-bottom: 10px;
+         margin-left: 12%;
+        
+    } 
+    #width200 {
+        width: 100%;
+    }
+    .add {
+        display: none;
+    }
+     
+
+}
+    
